@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+#head{
+  text-decoration: underline;
+}
+.container{
+  width: 300px;
+  text-align: center;
+  margin: 10px auto;
+}
+.table{
+  width: 400px;
+  text-align: center;
+  margin: 60px auto;
+  font-size: 3rem;
+}
+.table div{
+  display:inline-block;
+  padding:0px;
+  float: left;
+}
+.same{
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  font-size: 5rem;
+  color: white;
+}
+
+#o, #th, #se, #n{
+  border: none;
+}
+#t{
+  border-top: none;
+  border-bottom: none;
+}
+#f{
+  border-left: none;
+  border-right: none;
+}
+#s{
+  border-right: none;
+  border-left: none;
+}
+#e{
+  border-bottom: none;
+  border-top: none;
+}
+#winner{
+  /* background-color: greenyellow; */
+  margin:  10px 50px;
+  visibility: hidden;
+  position: relative;
+  height: 50px;
+  font-size: 3rem;
+}
+#res{
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 5px;
+  margin: 5px 20px;
+  z-index: 2;
+}
+#demo{
+  visibility: hidden;
+  position: absolute;
+  /* position: relative; */
+  margin-top: -600px;
+  z-index: 1;
+}
