@@ -1,5 +1,8 @@
 var c = 1;
 var f = 0;
+$('[data-text]').on('keyup', function(){
+  $(this).attr('data-text', $(this).text());
+});
 function reload() {
   location.reload();
 }
